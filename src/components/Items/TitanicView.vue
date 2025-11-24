@@ -10,7 +10,7 @@
 
         <div class="form-group">
             <label for="embarked">승선항 (Embarked)</label>
-            <select id="embarked" v-model="embarked">
+            <select id="embarked" v-model="formData.embarked">
                 <option value="S">S - Southampton (사우스햄튼)</option>
                 <option value="C">C - Cherbourg (셰르부르)</option>
                 <option value="Q">Q - Queenstown (퀸즈타운)</option>
